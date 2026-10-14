@@ -1,14 +1,14 @@
-import Main from "./Components/Main/Main.jsx";
+import Components from "./Components/Components";
 
 // Root component of the Notre Dame Football application
 function App() {
-  return <Main />;
+  return <Components />;
 }
 
 export default App;
 
 
-
+// Old Code from Feature 3
 //import { useState, useEffect } from 'react';
 //import { getAllGames } from "./Services/Games";
 // import heroImg from './assets/hero.png'
