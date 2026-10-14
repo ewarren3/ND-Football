@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "opponent": "Wisconsin",
+    "date": "2026-09-06",
+    "location": "Home"
+  },
+  {
+    "id": 2,
+    "opponent": "Rice",
+    "date": "2026-09-12",
+    "location": "Home"
+  },
+  {
+    "id": 3,
+    "opponent": "Michigan State",
+    "date": "2026-09-19",
+    "location": "Home"
+  },
+  {
+    "id": 4,
+    "opponent": "Purdue",
+    "date": "2026-09-26",
+    "location": "Away"
+  },
+  {
+    "id": 5,
+    "opponent": "North Carolina",
+    "date": "2026-10-03",
+    "location": "Away"
+  },
+  {
+    "id": 6,
+    "opponent": "Stanford",
+    "date": "2026-10-10",
+    "location": "Home"
+  },
+  {
+    "id": 7,
+    "opponent": "BYU",
+    "date": "2026-10-17",
+    "location": "Away"
+  },
+  {
+    "id": 8,
+    "opponent": "Navy",
+    "date": "2026-10-31",
+    "location": "Home"
+  },
+  {
+    "id": 9,
+    "opponent": "Miami (FL)",
+    "date": "2026-11-07",
+    "location": "Home"
+  },
+  {
+    "id": 10,
+    "opponent": "Boston College",
+    "date": "2026-11-14",
+    "location": "Home"
+  },
+  {
+    "id": 11,
+    "opponent": "SMU",
+    "date": "2026-11-21",
+    "location": "Home"
+  },
+  {
+    "id": 12,
+    "opponent": "Syracuse",
+    "date": "2026-11-28",
+    "location": "Away"
+  }
+]
+
+
+
+
+
