@@ -1,20 +1,25 @@
 import { useEffect, useState } from "react";
 import { getAllGames } from "../../Services/Games.js"
+import { useNavigate } from "react-router-dom";
 import GameList from "./MainList.jsx";
 
 // Stateful parent Main 
 const Main = () => {
-  const [games, setGames] = useState([]);
-  const [locationFilter, setLocationFilter] = useState("All");
-  const [searchTerm, setSearchTerm] = useState("");
-  const [sortAscending, setSortAscending] = useState(true);
-  // Defensive coding: setIsLoaded to false so the child component
-  // loads at the same time as the parent component 
-  const [isLoaded, setIsLoaded] = useState(false);
-// add alert from child component button
+    const navigate = useNavigate();
+    const [games, setGames] = useState([]);
+    const [locationFilter, setLocationFilter] = useState("All");
+    const [searchTerm, setSearchTerm] = useState("");
+    const [sortAscending, setSortAscending] = useState(true);
+    
+    // Defensive coding: setIsLoaded to false so the child component
+    // loads at the same time as the parent component 
+    const [isLoaded, setIsLoaded] = useState(false);
+    
+    // Navigate to the selected game's details page
     const handleSelectGame = (game) => {
-        alert(`${game.opponent} on ${game.date} — ${game.location}`);
-  };
+    navigate(`/games/${game.id}`);
+    };
+
 
   useEffect(() => {
     getAllGames().then((games) => {
